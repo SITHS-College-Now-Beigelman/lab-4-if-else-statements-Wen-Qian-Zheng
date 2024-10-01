@@ -26,13 +26,13 @@ while (isprogramrunning == true) // while the user still wants to run the progra
 
 
     if (sugar < 10) // if the sugar inputted is less than 10, 
-        cout << fruit << " LOW SUGAR FRUIT\n"; // it OUTPUTS 'fruit' LOW SUGAR FRUIT
+        cout << "\n" << fruit << " LOW SUGAR FRUIT\n"; // it OUTPUTS 'fruit' LOW SUGAR FRUIT
     
     else if (sugar >=10 and sugar <=14) // if the sugar inputted is in the range of and including 10 and 14, i
-        cout << fruit << " MEDIUM SUGAR FRUIT\n"; // OUTPUTS 'fruit' MEDIUM SUGAR FRUIT
+        cout << "\n" << fruit << " MEDIUM SUGAR FRUIT\n"; // OUTPUTS 'fruit' MEDIUM SUGAR FRUIT
     
     else // if the sugar inputted is more than 14, 
-        cout << fruit << " HIGH SUGAR FRUIT\n"; // it OUTPUTS 'fruit' HIGH SUGAR FRUIT
+        cout << "\n" << fruit << " HIGH SUGAR FRUIT\n"; // it OUTPUTS 'fruit' HIGH SUGAR FRUIT
 
     cout << "\nDo you wish to re-run the program? Y or any other key to exit:\n> "; // prompts user if they want to redo the program
     cin >> yesorno;
@@ -44,3 +44,39 @@ while (isprogramrunning == true) // while the user still wants to run the progra
 }
 return 0;
 }
+
+/*
+
+Input fruit name:
+> Banana
+
+Input grams of sugars of one cup of fruit:
+> 18
+
+Banana HIGH SUGAR FRUIT
+
+Do you wish to re-run the program? Y or any other key to exit:
+> Y
+
+Input fruit name:
+> Cherries
+
+Input grams of sugars of one cup of fruit:
+> 10
+
+Cherries MEDIUM SUGAR FRUIT
+
+Do you wish to re-run the program? Y or any other key to exit:
+> Y
+
+Input fruit name:
+> Passionfruit
+
+Input grams of sugars of one cup of fruit:
+> 5
+
+Passionfruit LOW SUGAR FRUIT
+
+Do you wish to re-run the program? Y or any other key to exit: > N
+PS C:\\Users\wen qian.zheng23\vs.code> S
+*/
